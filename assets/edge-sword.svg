@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 190">
+<defs>
+ <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".18" stop-color="#6e777c"/><stop offset=".38" stop-color="#171d21"/><stop offset=".52" stop-color="#f7f8f8"/><stop offset=".72" stop-color="#626b70"/><stop offset="1" stop-color="#12191d"/></linearGradient>
+ <linearGradient id="green" x1="0" x2="1"><stop stop-color="#9cff9f"/><stop offset=".35" stop-color="#22ff45"/><stop offset="1" stop-color="#087a19"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(10 10)">
+ <path d="M16 82 L42 55 64 64 73 48 88 69 104 58 121 81 105 103 88 92 73 112 62 95 41 104z" fill="url(#steel)" stroke="#080b0d" stroke-width="5"/>
+ <path d="M39 80l20-19 18 19-18 20z" fill="url(#green)" stroke="#d9ffe0" stroke-width="3" filter="url(#glow)"/>
+ <rect x="105" y="67" width="135" height="28" rx="8" fill="#111518" stroke="#aeb5b8" stroke-width="4"/>
+ <g stroke="#929a9d" stroke-width="4"><path d="M115 68l22 27m0-27l22 27m0-27l22 27m0-27l22 27m0-27l22 27"/></g>
+ <path d="M228 30c20 10 31 22 37 38 7-20 19-36 39-48-5 22-2 36 8 49 16-9 30-12 46-9-16 13-24 27-25 42 0 16 9 31 27 46-19 3-35-1-49-12-10 16-11 31-4 48-20-10-34-24-42-42-9 18-23 31-44 39 8-17 8-32-1-47-15 10-31 13-48 8 16-13 25-27 27-42-1-16-8-30-24-43 18-2 34 1 49 10 1-16-4-29-16-39z" fill="#11161a" stroke="url(#steel)" stroke-width="7"/>
+ <text x="235" y="135" font-family="Arial Black,Arial" font-size="122" font-style="italic" font-weight="900" fill="url(#steel)" stroke="#11181c" stroke-width="5">E</text>
+ <path d="M347 55 L1090 55 1248 94 1090 132 347 132 389 94z" fill="url(#steel)" stroke="#11181c" stroke-width="5"/>
+ <path d="M360 130 L1090 130 1248 94" fill="none" stroke="#45ff58" stroke-width="7" filter="url(#glow)"/>
+ <path d="M353 56 L1087 56" stroke="#f7ffff" stroke-width="3" opacity=".85"/>
+ <text x="405" y="116" font-family="Arial Black,Arial" font-size="70" font-style="italic" font-weight="900" fill="#f5f7f7" stroke="#20282c" stroke-width="2">EDGE</text>
+ <text x="635" y="116" font-family="Arial Black,Arial" font-size="70" font-style="italic" font-weight="900" fill="url(#green)" stroke="#17361d" stroke-width="2">BETTING</text>
+ <circle cx="337" cy="94" r="25" fill="#101619" stroke="#c7ced1" stroke-width="4"/><path d="M337 75l19 19-19 19-19-19z" fill="url(#green)" stroke="#e8ffeb" stroke-width="2" filter="url(#glow)"/>
+</g></svg>
